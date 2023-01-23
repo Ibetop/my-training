@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1, h2, p, ul {
+    margin: 0;
+}
+
+.list {
+    list-style: none;
+}
+
+.title {
+    margin-left: 20px;
+}
+
+.container {
+ border: 2px solid red;
+ width: 1130px;
+ margin: 0 auto;
+ padding-left: 15px;
+ padding-right: 15px;
+}
+
+.item-title {
+    border: 2px solid red;
+    margin-right: 30px;
+} 
+
+
+.list-title {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.list-title .item-title {
+    display: flex;
+    width: 350px;
+}
+
+.item-title:nth-child(3n) {
+    margin-right: 0;
+}
