@@ -12,20 +12,49 @@ h1, h2, p, ul {
     list-style: none;
 }
 
-h1 {
-    color: blue;
-    cursor: pointer;
-}
 
-h1:hover {
+h1{
     color: blueviolet;
     
 }
 
 .parent {
-    margin-left: 30px;
+    position: absolute;
     border: 5px solid blue;
     padding: 20px;
     width: 500px;
     height: 500px;
+   
+    
+    
 }
+
+.child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:  scaleX(0) translate(-50%, -50%);
+    background-color: blueviolet;
+    transition-duration: 250ms;
+    
+
+    transition-property: scale, transation-duration;
+}
+
+h2 {
+ color:blue;
+ 
+}
+
+.animation {
+    position: relative;
+    margin: 0 auto;
+
+} 
+
+.parent:hover .child  {
+   transform: scaleX(1);
+
+}
+
+
