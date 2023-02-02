@@ -13,9 +13,9 @@ h1, h2, p, ul {
 }
 
 
-h1{
-    color: blueviolet;
-    
+h1 {
+    color: black;
+    margin-left: 650px;
 }
 
 .parent {
@@ -23,7 +23,7 @@ h1{
     padding: 20px;
     width: 300px;
     height: 300px;
-   
+    margin: 0 auto;
     
     
 }
@@ -44,23 +44,28 @@ h2 {
 
 
 .parent:hover .child  {
-   animation-name: transform;
+   animation-name: transform ;
    animation-duration: 6000ms;
+   
+   background-color: aqua;
+  
 
 }
 
 @keyframes transform {
   0% {
-      transform: perspective(700px) rotateY(80deg);
+      transform: perspective(900px) rotateZ(80deg);
+
   }
    50% {
-    transform: perspective(700px) rotateY(-80deg);
+    transform: perspective(900px) rotateZ(-80deg); 
    }
 
    100% {
-    transform: perspective(700px) rotateY(100deg);
+    transform: perspective(900px) rotateZ(100deg);
    }
 
 }
+
 
 
