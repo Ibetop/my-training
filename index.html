@@ -7,13 +7,32 @@
     <link rel="stylesheet" href="./css/styles.css">
     <title>Document</title>
 </head>
-<body>  <div class="animation">
+<body>  
          <h1>Animation</h1>
         <div class="parent">
             <div class="child"> 
                 <h2>Hello</h2>
             </div>
         </div>
-    </div>
+         <h2>Modal forms</h2>
+         <div class="form-container">
+            <form> 
+                <label class="label"> Mail <input type="mail" name="mail" placeholder="alex@gmail.com"></label>
+                <label> Password <input type="password" name="password" minlength="5" maxlength="10"></label>
+                <label> Password <input type="number" name="number" min="5" max="20" value="1" step="2" ></label>
+            </form>
+
+            <button class="button-submit" type="button">Submit</button>     
+         </div>
+         <div>
+        
+         <div class="form-container-radio">
+            <form class="radio-form">
+            <p>What your favorit brand of car ?</p>
+            <label><input type="checkbox" name="brand" value="bmw" />BMW</label>
+            <label><input type="checkbox" name="brand" value="audi" />AUDI</label>
+            <label><input type="checkbox" name="brand" value="mercedec" />MERCEDEC</label>
+            </form>
+         </div>
 </body>
 </html>
