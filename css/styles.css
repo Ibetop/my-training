@@ -109,3 +109,29 @@ form {
 }
 
 
+.containers {
+  list-style: none;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    height: 400px;
+    border: 2px solid red;
+}
+
+.containers-item {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: green;
+}
+
+.block {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: green;
+
+}
