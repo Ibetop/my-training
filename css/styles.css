@@ -13,7 +13,7 @@ h1, h2, p, ul {
 }
 
 
-h1 {
+/* h1 {
     color: black;
     margin-left: 850px;
 }
@@ -134,4 +134,31 @@ form {
     height: 50px;
     background-color: green;
 
+} */
+
+
+form {
+    padding: 15px 24px;
+    width: 400px;
+    height: 800px;
+    outline: 1px solid red;
+}
+
+.box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.input {
+    width: 100%;
+
+}
+
+.icon {
+    top: 50%;
+    position: absolute;
+    display: block;
+    background-color: aqua;
+    height: 18px;
+    width: 18px;
 }
