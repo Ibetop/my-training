@@ -13,7 +13,7 @@ h1, h2, p, ul {
 }
 
 
-/* h1 {
+h1 {
     color: black;
     margin-left: 850px;
 }
@@ -54,11 +54,11 @@ h2 {
 
 @keyframes transform {
   0% {
-      transform: perspective(900px) rotateZ(80deg);
+      transform: perspective(900px) rotateY(80deg);
 
   }
    50% {
-    transform: perspective(900px) rotateZ(-80deg); 
+    transform: perspective(900px) rotateX(-80deg); 
    }
 
    100% {
@@ -134,31 +134,49 @@ form {
     height: 50px;
     background-color: green;
 
-} */
+}
 
 
-form {
-    padding: 15px 24px;
-    width: 400px;
-    height: 800px;
+.parents {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: auto;
     outline: 1px solid red;
 }
 
-.box {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-}
-.input {
-    width: 100%;
-
+.childs1 {
+    
+    width: 50%;
+   background-color: black;
 }
 
-.icon {
-    top: 50%;
-    position: absolute;
-    display: block;
+.childs2 {
+    
+    width: 50%;
+    background-color: green;
+}
+.childs3 {
+   
+    width: 50%;
     background-color: aqua;
-    height: 18px;
-    width: 18px;
 }
+.childs4 {
+    
+    width: 50%;
+    background-color: yellowgreen;
+}
+.childs5 {
+    width: 50%;
+    
+    background-color: gray;
+}
+.childs6 {
+    
+    width: 50%;
+    background-color: pink;
+}
+ 
