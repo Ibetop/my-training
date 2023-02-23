@@ -1,4 +1,5 @@
-const swiper = new Swiper('.swiper', {
+import Swiper from 'swiper/swiper-bundle';
+const swiper = new Swiper('.video-swiper', {
     // Optional parameters
     direction: 'vertical',
     loop: true,

@@ -32,17 +32,28 @@ body {
     height: 300px;
   }
 
-.container {
-    width: 930px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
+  .price .container {
+    overflow: hidden;
+    padding-left: 25px;
+    width: 1000px;
+  }
 
 .images-slider__image {
      text-align: center;
 }
+
+.images-swiper__wrap {
+    display: flex;
+}
  
 .images-slider__image {
     
+}
+
+
+.block {
+    width: 300px;
+    height: 400px;
+    background-color: aqua;
 }
 
