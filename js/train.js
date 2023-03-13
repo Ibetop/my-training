@@ -18,5 +18,10 @@
 // for (const mikel of misha) {
 //   console.log(mikel);
 // }
-const message = "JavaScript - це цікаво";
-console.log(message.split("")); 
+const numbers = [1, 2, 3, 4, 5];
+let counter = 0;
+console.log(counter++);
+console.log(++counter);
+console.log(counter++);
+console.log(++counter);
+
