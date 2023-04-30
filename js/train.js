@@ -144,4 +144,38 @@
 //     updateGenre(newGenre) {
 //       this.genre = newGenre;
 //     },
+// const mike = ['Mikel', 'Mike', 'MICHAEL', 'Misha', 'Mykhailo'];
+// const nameToFind = 'MICHAEL';
+// let message = "Такого ім'я не існує !!!";
 
+// for (mik of mike) {
+
+// if (mik === nameToFind) {
+//   message = "Ім'я було знайденою вітаю !!!";
+//   break;
+// }
+// }
+// console.log(message)
+// const numbers = [1, 3, 14, 18, 4, 7, 29, 6, 34];
+// const threshold = 15;
+
+// // Для чисел, менших ніж порогове значення, спрацьовує continue, виконання тіла
+// // припиняється і управління передається на наступну ітерацію.
+// for (let i = 0; i < numbers.length; i += 1) {
+//   if (numbers[i] < threshold) {
+//    continue;
+//   }
+
+//   console.log(`Число більше за ${threshold}: ${numbers[i]}`); // 18, 29, 34
+// }
+function checkStorage(available, ordered) {
+  let message = "Not enough goods in stock!";
+  // Change code below this line
+if (available > ordered ) {
+  message = "Order is processed, our manager will contact you.";
+
+} 
+  // Change code above this line
+  return message;
+}
+console.log(checkStorage(100, 30))
