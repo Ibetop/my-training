@@ -174,11 +174,14 @@
 // const newArray = k.concat(m);
 // console.log(newArray);
 
-function add() {
-  const a = 1;
+// function add() {
+//   const a = 1;
+// console.log(a);
+// }
+// add(1,3,4,5);
+
+const customer = 100;
+const credit = 100;
+const a = customer - credit;
 console.log(a);
-}
-add(1,3,4,5);
-
-
 
