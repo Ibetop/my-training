@@ -168,14 +168,17 @@
 
 //   console.log(`Число більше за ${threshold}: ${numbers[i]}`); // 18, 29, 34
 // }
-function checkStorage(available, ordered) {
-  let message = "Not enough goods in stock!";
-  // Change code below this line
-if (available > ordered ) {
-  message = "Order is processed, our manager will contact you.";
 
-} 
-  // Change code above this line
-  return message;
+// const k = ['Mykhailo', 'Misha', 'Taras'];
+// const m = ['Andrey', 'Maksym', 'Yura', 'Kolya', 'Dmytro', 'Vitaly'];
+// const newArray = k.concat(m);
+// console.log(newArray);
+
+function add() {
+  const a = 1;
+console.log(a);
 }
-console.log(checkStorage(100, 30))
+add(1,3,4,5);
+
+
+
