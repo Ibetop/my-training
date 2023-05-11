@@ -180,8 +180,33 @@
 // }
 // add(1,3,4,5);
 
-const customer = 100;
-const credit = 100;
-const a = customer - credit;
-console.log(a);
+// const user1 = {
+//   name: 'Mykhailo',
+// }
 
+// const user2 = Object.create(user1); 
+// user2.height = 178;
+
+// for(let key in user2) {
+// if(user2.hasOwnProperty(key))
+//   console.log(key)
+//   console.log(user2[key]);
+// }
+
+const users = {
+  pubg: 10,
+  csgo: 15,
+  minecraft: 5,
+  standof: 8, 
+}
+
+const values = Object.values(users)
+console.log(values);
+ 
+let totalUsers = 0;
+for (const value of values ) {
+   console.log(value)
+   totalUsers += value;
+
+}
+console.log(totalUsers);
