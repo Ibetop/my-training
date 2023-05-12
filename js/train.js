@@ -193,20 +193,29 @@
 //   console.log(user2[key]);
 // }
 
-const users = {
-  pubg: 10,
-  csgo: 15,
-  minecraft: 5,
-  standof: 8, 
-}
+// const users = {
+//   pubg: 10,
+//   csgo: 15,
+//   minecraft: 5,
+//   standof: 8, 
+// }
 
-const values = Object.values(users)
-console.log(values);
- 
-let totalUsers = 0;
-for (const value of values ) {
-   console.log(value)
-   totalUsers += value;
+// const m = {
+//   name: 'Misha',
+//   height: 178,
+//   weight: 60,
+// }
 
+// const arrayM = m.name;
+// console.log(arrayM)
+function countProps(object) {
+  // Change code below this line
+  let propCount = 0;
+
+  const keys = Object.keys(object);
+  propCount = keys.length
+
+  return propCount;
+  // Change code above this line
 }
-console.log(totalUsers);
+console.log(countProps({ name: "Mango", age: 2, old: 3 }))
