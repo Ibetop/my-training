@@ -208,21 +208,7 @@
 
 // const arrayM = m.name;
 // console.log(arrayM)
-const products = [
-  { name: "Radar", price: 1300, quantity: 4 },
-  { name: "Scanner", price: 2700, quantity: 3 },
-  { name: "Droid", price: 400, quantity: 7 },
-  { name: "Grip", price: 1200, quantity: 9 },
-];
-
-function getProductPrice(productName) {
-  // Change code below this line
-for (const product of productName) {
-  console.log(product)
-  
-}
-
-
-  // Change code above this line
-}
-console.log(getProductPrice(productName({ name: "Radar", price: 1300, quantity: 4 })))
+// const products = [2, 3, 45, 50, 1];
+// const product = [6];
+// const newProducts = [...product, ...products];
+// console.log(newProducts)
