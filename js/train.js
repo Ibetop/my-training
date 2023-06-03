@@ -212,3 +212,7 @@
 // const product = [6];
 // const newProducts = [...product, ...products];
 // console.log(newProducts)
+
+
+
+
