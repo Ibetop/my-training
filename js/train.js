@@ -213,6 +213,7 @@
 // const newProducts = [...product, ...products];
 // console.log(newProducts)
 
-
-
+const a = ['c'];
+a.misha = 'hello';
+console.log(a)
 
