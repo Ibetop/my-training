@@ -213,7 +213,18 @@
 // const newProducts = [...product, ...products];
 // console.log(newProducts)
 
-const a = ['c'];
-a.misha = 'hello';
-console.log(a)
-
+// Change code below this line
+// Change code below this line
+function add(...args) {
+    let answear = 0;
+    for (const arg of args) {
+      console.log(arg)
+      answear += arg;
+    // for (let i = 0; i < args.length; i += 1) {;
+    //  console.log(args[i])
+    //   answear += args[i];                   
+    }
+   return answear
+    // Change code above this line
+  }
+  console.log(add(74, 11, 62, 46, 12, 36));
