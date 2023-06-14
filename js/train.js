@@ -214,17 +214,21 @@
 // console.log(newProducts)
 
 // Change code below this line
-// Change code below this line
-function add(...args) {
-    let answear = 0;
-    for (const arg of args) {
-      console.log(arg)
-      answear += arg;
-    // for (let i = 0; i < args.length; i += 1) {;
-    //  console.log(args[i])
-    //   answear += args[i];                   
-    }
-   return answear
-    // Change code above this line
-  }
-  console.log(add(74, 11, 62, 46, 12, 36));
+// const bookShelf = {
+//   // Change code below this line
+//   books: ["The last kingdom", "The guardian of dreams"],
+//   getBooks() {
+//     return "Returning all books";
+//   },
+//   addBook(bookName) {
+//     return `Adding book ${bookName}`;
+//   },
+//   removeBook(bookName) {
+//     return `Deleting book ${bookName}`;
+//   },
+//   updateBook(oldName, newName) {
+//     `Updating book ${oldName} to ${newName}`;
+//   },
+//   // Change code above this line
+// };
+// console.log(`bookShelf.updateBook('Sands of dune', 'Dune')`);
