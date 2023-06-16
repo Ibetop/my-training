@@ -232,43 +232,26 @@
 //   // Change code above this line
 // };
 // console.log(`bookShelf.updateBook('Sands of dune', 'Dune')`);
-const atTheOldToad = {
-    potions: [
-      { name: "Speed potion", price: 460 },
-      { name: "Dragon breath", price: 780 },
-      { name: "Stone skin", price: 520 },
-    ],
-    // Change code below this line
-    getPotions() {
-      return this.potions;
-    },
-    addPotion(newPotion) {
-      if (newPotion === this.potions ) {
-        return `Error! Potion ${newPotion} is already in your inventory!`;
-      }
-  
-      this.potions.push(newPotion);
-    },
-    removePotion(potionName) {
-      const potionIndex = this.potions.indexOf(potionName);
-  
-      if (potionIndex === potionName) {
-        return `Potion ${potionName} is not in inventory!`;
-      }
-  
-      this.potions.splice(potionIndex, 1);
-    },
-    updatePotionName(oldName, newName) {
-      const potionIndex = this.potions.indexOf(oldName);
-      console.log(potionIndex);
-     
-      if (potionIndex === newName) {
-        return `Potion ${oldName} is not in inventory!`;
-      }
-  
-      this.potions.splice(potionIndex, 1, newName);
-    },
-    // Change code above this line
-  };
+// Колбек-функція
+// function greet(name) {
+//   console.log(`Ласкаво просимо ${name}.`);
+// }
 
-console.log(atTheOldToad.updatePotionName('Stone skin', 'Invulnerability potion'));
+// // Функція вищого порядку
+// function registerGuest(name, callback) {
+//   console.log(`Реєструємо гостя ${name}.`);
+//   callback(name);
+// }
+
+// registerGuest("Манго", greet);
+
+nameOfTeam('Real Madrid', function welcome(team) {
+  console.log(`Welcome team ${team}`);
+});
+
+
+function nameOfTeam(team, callback) {
+  console.log(`Team ${team}, will be in few minutes`);
+};
+
+nameOfTeam('Real Madrid');
