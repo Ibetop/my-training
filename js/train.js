@@ -231,27 +231,20 @@
 //   },
 //   // Change code above this line
 // };
-// console.log(`bookShelf.updateBook('Sands of dune', 'Dune')`);
 // Колбек-функція
-// function greet(name) {
-//   console.log(`Ласкаво просимо ${name}.`);
-// }
+// function misha2(name){
+//   console.log(`glad ${name} !`);
+// };
 
-// // Функція вищого порядку
-// function registerGuest(name, callback) {
-//   console.log(`Реєструємо гостя ${name}.`);
+// function misha1(name, callback) {
+//   console.log(`we all glad to see you ${name}`);
 //   callback(name);
-// }
-
-// registerGuest("Манго", greet);
-
-nameOfTeam('Real Madrid', function welcome(team) {
-  console.log(`Welcome team ${team}`);
-});
-
-
-function nameOfTeam(team, callback) {
-  console.log(`Team ${team}, will be in few minutes`);
+// };
+// misha1('Mykhailo', misha2);
+function misha2(name, callback) {
+  console.log(`glad ${name}`);
+  callback(name);
 };
-
-nameOfTeam('Real Madrid');
+misha2('Mykhailo', function misha1(name) {
+  console.log(`we are glad to see you ${name}`);
+});
