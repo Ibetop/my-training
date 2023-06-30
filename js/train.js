@@ -231,20 +231,12 @@
 //   },
 //   // Change code above this line
 // };
-// Колбек-функція
-// function misha2(name){
-//   console.log(`glad ${name} !`);
-// };
+//
 
-// function misha1(name, callback) {
-//   console.log(`we all glad to see you ${name}`);
-//   callback(name);
-// };
-// misha1('Mykhailo', misha2);
-function misha2(name, callback) {
-  console.log(`glad ${name}`);
-  callback(name);
-};
-misha2('Mykhailo', function misha1(name) {
-  console.log(`we are glad to see you ${name}`);
-});
+// const letters = ['a','b', 'c', 'd', 'e', 'f'];
+
+// letters.forEach((letter, index) => {
+//   console.log(`Misha has letter ${letter} for index ${index}.`)
+// });
+// const addNumbers = (a, b, c, d) => a + b + c + d;
+// console.log(addNumbers(1,2,3,4))
