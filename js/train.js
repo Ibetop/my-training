@@ -231,12 +231,23 @@
 //   },
 //   // Change code above this line
 // };
-//
 
-// const letters = ['a','b', 'c', 'd', 'e', 'f'];
 
-// letters.forEach((letter, index) => {
-//   console.log(`Misha has letter ${letter} for index ${index}.`)
-// });
-// const addNumbers = (a, b, c, d) => a + b + c + d;
-// console.log(addNumbers(1,2,3,4))
+// const values = [51, -3, 27, 21, -68, 42, -37];
+
+// const positiveValues = values.filter(value => value >= 0);
+// console.log(positiveValues); // [51, 27, 21, 42]
+function filterArray(numbers, value) {
+    const filteredNumbers = [];
+    // Change code below this line
+  
+    numbers.forEach(function (number, value){
+      if(numbers > value){;
+        filterArray.push(number);
+    };
+    });
+  
+    // Change code above this line
+    return filteredNumbers;
+  }
+console.log(filterArray([12, 24, 8, 41, 76], 20));  
